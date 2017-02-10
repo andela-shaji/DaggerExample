@@ -1,5 +1,10 @@
 package com.example.suadahaji.booksapplication.dagger.qualifiers;
 
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
 
-public class ApplicationContext {
+import javax.inject.Qualifier;
+
+@Qualifier @Retention(RetentionPolicy.RUNTIME)
+public @interface ApplicationContext {
 }
